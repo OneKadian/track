@@ -236,6 +236,7 @@ const PriceTable2 = () => {
                     {pricingOptions.map((option, index) => (
                         <MotionBTTContainer
                             transition={{ delay: 0.2, duration: 0.5 }}
+                            key={index}
                         >
                             <div
                                 key={index}
